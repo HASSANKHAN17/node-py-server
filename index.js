@@ -99,7 +99,7 @@ app.get("/output", async (req,res) => {
             res.send("suspicious")
         } 
         if(output === "relatives"){
-          res.send("relatives")
+          res.send("relative")
         }
     })
       
