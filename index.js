@@ -6,7 +6,7 @@ const cors =require("cors")
 const app = express()
 const multer = require("multer");
 const download = require("image-downloader")
-const spawn = require("child_process").spawn;
+// const spawn = require("child_process").spawn;
 const storage = multer.diskStorage({
   destination: function(req, file, cb){
       // console.log(req)
