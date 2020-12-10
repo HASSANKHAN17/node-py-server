@@ -1,6 +1,0 @@
-{
-  "projects": {
-    "default": "machinelearning-nodejs",
-    "machinelearning-nodejs": "machinelearning-nodejs"
-  }
-}

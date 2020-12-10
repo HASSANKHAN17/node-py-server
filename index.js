@@ -81,7 +81,7 @@ app.get("/output", async (req,res) => {
    pyFile.on('message', function (message) {
         // received a message sent from the Python script (a simple "print" statement)
         output = message
-        // console.log(message);
+        console.log(message);
         // console.log(output);
       });
 
